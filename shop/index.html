@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav style="border: 2px solid black">
+      <div class="nav-heading">
+        <p>MeShop.</p>
+      </div>
+      <div class="nav-items">
+        <a href="../shop/index.html">Home</a>
+        <a href="../login/index.html">Login</a>
+        <a href="../signup/index.html">Signup</a>
+        <a href="../cart/index.html">My Cart</a>
+        <a href="../profile/index.html">Profile</a>
+      </div>
+    </nav>
+    <main class="shop-page">
+      <section id="filters-container">
+        <div class="color-container">
+          <label>Colors</label>
+          <ul id="colors" type="none">
+            <li>
+              <input type="checkbox" id="red" name="colors" value="red" />
+              <label for="red">Red</label>
+            </li>
+            <li>
+              <input type="checkbox" id="green" name="colors" value="green" />
+              <label for="green">Green</label>
+            </li>
+            <li>
+              <input type="checkbox" id="blue" name="colors" value="blue" />
+              <label for="blue">Blue</label>
+            </li>
+            <li>
+              <input type="checkbox" id="black" name="colors" value="black" />
+              <label for="black">Black</label>
+            </li>
+            <li>
+              <input type="checkbox" id="white" name="colors" value="white" />
+              <label for="white">White</label>
+            </li>
+          </ul>
+        </div>
+        <div class="sizes-container">
+          <label>Sizes</label>
+          <ul id="sizes" type="none">
+            <li>
+              <input type="checkbox" id="small" name="sizes" value="small" />
+              <label for="small">S</label>
+            </li>
+            <li>
+              <input type="checkbox" id="medium" name="sizes" value="medium" />
+              <label for="medium">M</label>
+            </li>
+            <li>
+              <input type="checkbox" id="large" name="sizes" value="large" />
+              <label for="large">L</label>
+            </li>
+            <li>
+              <input type="checkbox" id="xlarge" name="sizes" value="xlarge" />
+              <label for="xlarge">XL</label>
+            </li>
+            <li>
+              <input
+                type="checkbox"
+                id="xxlarge"
+                name="sizes"
+                value="xxlarge"
+              />
+              <label for="xxlarge">XXL</label>
+            </div>
+          </ul>
+        </div>
+        <div class="rating-container">
+          <label for="rating">Rating</label>
+          <input type="range" id="rating" name="rating" min="0" max="5" />
+        </div>
+        <div class="prices-container">
+          <label>Prices</label>
+            <ul id="priceRange" type="none">
+              <li>
+                <input type="checkbox" id="low" name="priceRange" value="low" />
+                <label for="low">$0 to $25</label>
+              </li>
+              <li>
+                <input type="checkbox" id="moderate" name="priceRange" value="moderate"/>
+                <label for="moderate">$25 to $50</label>
+              </li>
+              <li>
+                <input type="checkbox" id="high" name="priceRange" value="high" />
+                <label for="high">$50 to $75</label>
+              </li>
+              <li>
+                <input type="checkbox" id="costly" name="priceRange" value="costly"/>
+                <label for="costly">$75 to $100</label>
+              </li>
+          </ul>
+        </div>
+        <button id="filter-btn">Apply Filter</button>
+      </section>
+      <section id="main-container">
+        <div id="search-bar">
+          <input type="text" placeholder="Search" value="" />
+        </div>
+        <div id="filter-btns">
+          <button id="all">All</button>
+          <button id="mens">Mens</button>
+          <button id="womens">Womens</button>
+          <button id="jewellery">Jewellery</button>
+          <button id="electronics">Electronics</button>
+        </div>
+        <div id="items-container">
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-heading">
+        <p>MeShop.</p>
+      </div>
+      <div class="nav-items">
+        <a href="../shop/index.html">Home</a>
+        <a href="../login/index.html">Login</a>
+        <a href="../signup/index.html">Signup</a>
+        <a href="../cart/index.html">My Cart</a>
+        <a href="../profile/index.html">Profile</a>
+      </div>
+    </nav>
+    <main>
+      <h1>Login</h1>
+      <form id="user-details">
+        <input type="email" placeholder="Enter Mail" id="email"/>
+        <input type="password" placeholder="Enter Password" id="password"/>
+        <div>
+            <button type="submit" id="login-btn">Login</button>
+            <span id="message"></span>
+        </div>
+      </form>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

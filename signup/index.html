@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-heading">
+        <p>MeShop.</p>
+      </div>
+      <div class="nav-items">
+        <a href="../shop/index.html">Home</a>
+        <a href="../login/index.html">Login</a>
+        <a href="../signup/index.html">Signup</a>
+        <a href="../cart/index.html">My Cart</a>
+        <a href="../profile/index.html">Profile</a>
+      </div>
+    </nav>
+    <main>
+      <h1>Signup</h1>
+      <form id="user-details" class="user-details">
+        <input type="text" placeholder="First Name" id="first-name"/>
+        <input type="text" placeholder="Last Name" id="last-name"/>
+        <input type="email" placeholder="Email" id="email"/>
+        <input type="password" placeholder="Password" id="password"/>
+        <input type="password" placeholder="Confirm Password" id="confirm-pass"/>
+        <div>
+            <button type="submit" id="signup-btn">Signup</button>
+            <span id="message"></span>
+        </div>
+      </form>
+      <script src="./script.js"></script>
+    </main>
+  </body>
+</html>

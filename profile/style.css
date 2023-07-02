@@ -1,0 +1,81 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+}
+nav a{
+    color: rgb(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.nav-items{
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.password-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    padding: 10px;
+}
+#saveInfo-btn{
+    width: 190px;
+    color: white;
+    background-color: black;
+    border-collapse: collapse;
+    padding: 5px 30px;
+    align-self: flex-start;
+}
+#change-btn{
+    width: 190px;
+    color: white;
+    background-color: black;
+    border-collapse: collapse;
+    padding: 5px 30px;
+    align-self: flex-start;
+}
+#logout-btn{
+    width: 190px;
+    color: white;
+    background-color: black;
+    border-collapse: collapse;
+    padding: 5px 30px;
+    align-self: center;
+}
+h1{
+    align-self: center;
+    font-weight: bolder;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
