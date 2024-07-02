@@ -1,55 +1,61 @@
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-html,body{
-    width: 100%;
-    min-height: 100vh;
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    padding: 20px 40px;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
 }
-nav a{
-    color: rgb(255, 255, 255, 0.7);
-    text-decoration: none;
+nav a {
+  color: rgb(255, 255, 255, 0.7);
+  text-decoration: none;
 }
-.nav-items{
-    font-weight: 300;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
-    align-items: center;
+.nav-items {
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
 }
-#login-btn{
-    color: white;
-    background-color: black;
-    border-collapse: collapse;
-    padding: 5px 40px;
-    align-self: flex-start;
+#login-btn {
+  color: white;
+  background-color: black;
+  border-collapse: collapse;
+  padding: 5px 40px;
+  align-self: flex-start;
 }
-main{
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+main {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-input{
-    color: black;
-    padding: 10px 15px;
+input {
+  color: black;
+  padding: 10px 15px;
 }
-span{
-    width:fit-content;
-    margin-left: 20px;
+span {
+  width: fit-content;
+  margin-left: 20px;
+}
+
+#login-btn:hover {
+  color: black;
+  background-color: white;
 }

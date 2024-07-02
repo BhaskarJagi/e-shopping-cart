@@ -26,7 +26,7 @@ if (!localStorage.getItem("currUser")) {
       localStorage.setItem("itemArr", JSON.stringify(itemArr));
       showItems(itemArr);
     });
-    console.log(itemArr);
+    console.log(itemArr);3
   function showItems(Arr) {
     itemsContainer.innerHTML = "";
     Arr.forEach((Obj) => {
@@ -58,7 +58,7 @@ if (!localStorage.getItem("currUser")) {
   }
   
   search.addEventListener("input", () => {
-    myArr = itemArr.filter((ele) => {
+    let myArr = itemArr.filter((ele) => {
       if (ele.title.toLowerCase().includes(search.value.trim().toLowerCase())) {
         return ele;
       }
