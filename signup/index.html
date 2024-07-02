@@ -20,24 +20,28 @@
         <p>MeShop.</p>
       </div>
       <div class="nav-items">
-        <a href="../shop/index.html">Home</a>
-        <a href="../login/index.html">Login</a>
-        <a href="../signup/index.html">Signup</a>
-        <a href="../cart/index.html">My Cart</a>
-        <a href="../profile/index.html">Profile</a>
+        <a href="../shop/index.html" id="shop-link">Home</a>
+        <a href="../login/index.html" id="login-link">Login</a>
+        <a href="../signup/index.html" id="signup-link">Signup</a>
+        <a href="../cart/index.html" id="cart-link">My Cart</a>
+        <a href="../profile/index.html" id="profile-link">Profile</a>
       </div>
     </nav>
     <main>
       <h1>Signup</h1>
       <form id="user-details" class="user-details">
-        <input type="text" placeholder="First Name" id="first-name"/>
-        <input type="text" placeholder="Last Name" id="last-name"/>
-        <input type="email" placeholder="Email" id="email"/>
-        <input type="password" placeholder="Password" id="password"/>
-        <input type="password" placeholder="Confirm Password" id="confirm-pass"/>
+        <input type="text" placeholder="First Name" id="first-name" />
+        <input type="text" placeholder="Last Name" id="last-name" />
+        <input type="email" placeholder="Email" id="email" />
+        <input type="password" placeholder="Password" id="password" />
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          id="confirm-pass"
+        />
         <div>
-            <button type="submit" id="signup-btn">Signup</button>
-            <span id="message"></span>
+          <button type="submit" id="signup-btn">Signup</button>
+          <span id="message"></span>
         </div>
       </form>
       <script src="./script.js"></script>

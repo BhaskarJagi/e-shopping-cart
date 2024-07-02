@@ -1,3 +1,9 @@
+if (location.href.includes("login")) {
+    let link = document.getElementById("login-link");
+    link.style.color = "white";
+    link.style.fontWeight ="bold"
+  }
+
 const userLogin = document.getElementById('user-details');
 
 var usersList = [];

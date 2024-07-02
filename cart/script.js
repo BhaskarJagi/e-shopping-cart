@@ -1,3 +1,9 @@
+if (location.href.includes("cart")) {
+    let link = document.getElementById("cart-link");
+    link.style.color = "white";
+    link.style.fontWeight ="bold"
+  }
+
 if(!localStorage.getItem('currUser')){
     location.href='../login/index.html';
 }

@@ -1,3 +1,9 @@
+if (location.href.includes("shop")) {
+  let link = document.getElementById("shop-link");
+  link.style.color = "white";
+  link.style.fontWeight ="bold"
+}
+
 if (!localStorage.getItem("currUser")) {
     location.href = "../login/index.html";
   }

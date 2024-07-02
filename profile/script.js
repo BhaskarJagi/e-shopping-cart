@@ -1,3 +1,8 @@
+if (location.href.includes("profile")) {
+    let link = document.getElementById("profile-link");
+    link.style.color = "white";
+    link.style.fontWeight ="bold"
+  }
 
 const logout = document.getElementById('logout-btn');
 const userProfile = document.getElementById('user-profile');
